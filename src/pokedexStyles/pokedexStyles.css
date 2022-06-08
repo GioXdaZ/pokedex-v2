@@ -1,0 +1,96 @@
+.pokeBody {
+  display: flex;
+  position: absolute;
+  width: 300px;
+  height: 500px;
+  background-color: rgb(218, 0, 0);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.pokeTop {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 100px;
+  background: red;
+  position: absolute;
+  clip-path: polygon(0 0, 100% 0,
+      100% calc(100% - 50.00px),
+      calc(100% - 100px) calc(100% - 50px),
+      calc(100% - 170.00px) 100%, 0 100%);
+}
+
+.borderHuge {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(rgb(163, 164, 159), rgb(122, 123, 119));
+  border-radius: 100%;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  
+}
+
+.pokeCircle.blue {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(aqua, rgb(23, 184, 184), rgb(0, 183, 255));
+  border-radius: 100%;
+  position: absolute;
+  margin: 10px 10px;
+}
+
+.circleContainer {
+  display: flex;
+  margin-left: 90px;
+  width: 300px;
+  height: 100px;
+}
+
+.borderTiny {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background: radial-gradient(rgb(163, 164, 159), rgb(122, 123, 119));
+  border-radius: 100%;
+  position: relative;
+  margin: 10px 1.3px;
+}
+
+.pokeCircle.red {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background: radial-gradient(rgb(187, 0, 0), rgb(163, 0, 0), rgb(197, 0, 0));
+  border-radius: 100%;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.pokeCircle.yellow {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background: radial-gradient(rgb(172, 190, 2), rgb(208, 255, 0), rgb(208, 255, 0));
+  border-radius: 100%;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.pokeCircle.green {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background: radial-gradient(rgb(21, 255, 0), rgb(15, 216, 58)),rgb(30, 255, 0);
+  border-radius: 100%;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 5px;
+}
