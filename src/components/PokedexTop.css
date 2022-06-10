@@ -1,0 +1,101 @@
+.borderPokeTop {
+  display: flex;
+  width: 450px;
+  height: 150px;
+  background: black;
+  position: absolute;
+  clip-path: polygon(0 0, 100% 0,
+      100% calc(100% - 75.00px),
+      calc(100% - 170px) calc(100% - 75px),
+      calc(100% - 250.00px) 100%, 0 100%);
+}
+
+
+.pokeTop {
+  display: flex;
+  width: 450px;
+  height: 149px;
+  background: red;
+  position: absolute;
+  clip-path: polygon(0 0, 100% 0,
+      100% calc(100% - 75.00px),
+      calc(100% - 170px) calc(100% - 75px),
+      calc(100% - 250.00px) 100%, 0 100%);
+}
+
+.borderHuge {
+  display: flex;
+  width: 119px;
+  height: 119px;
+  background: radial-gradient(rgb(163, 164, 159), rgb(122, 123, 119));
+  border-radius: 100%;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: 1px solid black;
+}
+
+.pokeCircle.blue {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(aqua, rgb(23, 184, 184), rgb(0, 183, 255));
+  border-radius: 100%;
+  position: absolute;
+  margin: 9px 9px;
+  border: 1px solid black;
+}
+
+.circleContainer {
+  display: flex;
+  margin-left: 135px;
+  width: 450px;
+  height: 150px;
+}
+
+.borderTiny {
+  display: flex;
+  width: 39px;
+  height: 39px;
+  background: radial-gradient(rgb(163, 164, 159), rgb(122, 123, 119));
+  border-radius: 100%;
+  position: relative;
+  margin: 10px 2px;
+  border: 1px solid black;
+}
+
+.pokeCircle.red {
+  display: flex;
+  width: 29px;
+  height: 29px;
+  background: radial-gradient(rgb(187, 0, 0), rgb(163, 0, 0), rgb(197, 0, 0));
+  border-radius: 100%;
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 4px;
+  border: 1px solid black;
+}
+
+.pokeCircle.yellow {
+  display: flex;
+  width: 29px;
+  height: 29px;
+  background: radial-gradient(rgb(172, 190, 2), rgb(208, 255, 0), rgb(208, 255, 0));
+  border-radius: 100%;
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 4px;
+  border: 1px solid black;
+}
+
+.pokeCircle.green {
+  display: flex;
+  width: 29px;
+  height: 29px;
+  background: radial-gradient(rgb(21, 255, 0), rgb(15, 216, 58)),rgb(30, 255, 0);
+  border-radius: 100%;
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 4px;
+  border: 1px solid black;
+}
