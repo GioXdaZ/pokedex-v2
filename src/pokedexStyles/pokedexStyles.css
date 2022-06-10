@@ -3,13 +3,13 @@
   position: absolute;
   width: 450px;
   height: 750px;
-  background-color: rgb(175, 0, 0);
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
+  background: linear-gradient(rgb(182, 0, 0),rgb(161, 0, 0));
+  margin-top: 80px;
+  margin-left: 30px;
   border: 1px solid black;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
 }
 
 .bodyScreen {
@@ -17,7 +17,7 @@
   position: absolute;
   width: 340px;
   height: 620px;
-  background: rgb(218, 0, 0);
+  background: linear-gradient(rgb(218, 0, 0),rgb(202, 0, 0));
   clip-path: polygon(
     0 80px,
     190px 80px,

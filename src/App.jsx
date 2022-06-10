@@ -1,6 +1,7 @@
 import "./pokedexStyles/pokedexStyles.css";
 import { PokedexTop } from "./components/PokedexTop";
 import { PokedexScreen } from "./components/PokedexScreen";
+import { PokedexHinge } from "./components/PokedexHinge";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           </div>
         </div>
       </div>
+      <PokedexHinge/>
     </div>
   );
 }

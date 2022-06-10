@@ -5,9 +5,12 @@
   background: black;
   position: absolute;
   clip-path: polygon(0 0, 100% 0,
-      100% calc(100% - 75.00px),
-      calc(100% - 170px) calc(100% - 75px),
-      calc(100% - 250.00px) 100%, 0 100%);
+    100% calc(100% - 75.00px),
+    calc(100% - 170px) calc(100% - 75px),
+    calc(100% - 250.00px) 100%, 0 100%);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+    
 }
 
 
@@ -15,12 +18,14 @@
   display: flex;
   width: 450px;
   height: 149px;
-  background: red;
+  background: linear-gradient(rgb(200, 0, 0),rgb(255, 0, 0));
   position: absolute;
   clip-path: polygon(0 0, 100% 0,
-      100% calc(100% - 75.00px),
-      calc(100% - 170px) calc(100% - 75px),
-      calc(100% - 250.00px) 100%, 0 100%);
+    100% calc(100% - 75.00px),
+    calc(100% - 170px) calc(100% - 75px),
+    calc(100% - 250.00px) 100%, 0 100%);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
 .borderHuge {
@@ -39,7 +44,7 @@
   display: flex;
   width: 100px;
   height: 100px;
-  background: radial-gradient(aqua, rgb(23, 184, 184), rgb(0, 183, 255));
+  background: radial-gradient(rgb(36, 212, 212), rgb(15, 180, 180), rgb(9, 114, 155));
   border-radius: 100%;
   position: absolute;
   margin: 9px 9px;
@@ -80,7 +85,7 @@
   display: flex;
   width: 29px;
   height: 29px;
-  background: radial-gradient(rgb(172, 190, 2), rgb(208, 255, 0), rgb(208, 255, 0));
+  background: radial-gradient(rgb(190, 140, 2), rgb(255, 166, 0), rgb(208, 255, 0));
   border-radius: 100%;
   position: absolute;
   margin-top: 4px;
@@ -92,7 +97,7 @@
   display: flex;
   width: 29px;
   height: 29px;
-  background: radial-gradient(rgb(21, 255, 0), rgb(15, 216, 58)),rgb(30, 255, 0);
+  background: radial-gradient(rgb(15, 175, 0), rgb(15, 216, 58)),rgb(30, 255, 0);
   border-radius: 100%;
   position: absolute;
   margin-top: 4px;
