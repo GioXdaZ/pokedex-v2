@@ -110,3 +110,10 @@
   border: 2px solid black;
   border-radius: 4px;
 }
+
+.positionLightLargeCap {
+  display: flex;
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 195px;
+}

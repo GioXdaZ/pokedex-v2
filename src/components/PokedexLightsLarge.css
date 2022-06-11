@@ -1,0 +1,36 @@
+.lights {
+  display: flex;
+  width: 130px;
+  height: 20px;
+  position: absolute;
+  gap: 4px;
+}
+
+.borderLightsLarge {
+  display: flex;
+  width: 60px;
+  height: 10px;
+  background: linear-gradient(50deg, gray, white);
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.lightGreen {
+  display: flex;
+  width: 56px;
+  height: 6px;
+  background: linear-gradient(180deg, green, darkgreen);
+  margin: auto auto;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.lightRed {
+  display: flex;
+  width: 56px;
+  height: 6px;
+  background: linear-gradient(180deg, red, darkred);
+  margin: auto auto;
+  border-radius: 5px;
+  border: 1px solid black;
+}

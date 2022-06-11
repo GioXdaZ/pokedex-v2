@@ -1,4 +1,5 @@
 import "./PokedexCap.css";
+import { PokedexLightsLarge } from "./PokedexLightsLarge";
 
 export const PokedexCap = () => {
   return (
@@ -24,6 +25,9 @@ export const PokedexCap = () => {
             <div className="pokeButtonPanel"></div>
             <div className="pokeButtonPanel"></div>
           </div>
+        </div>
+        <div className="positionLightLargeCap">
+          <PokedexLightsLarge />
         </div>
       </div>
     </div>
