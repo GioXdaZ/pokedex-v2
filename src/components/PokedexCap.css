@@ -1,0 +1,112 @@
+.pokeCapBodyBorder {
+  display: flex;
+  width: 390px;
+  height: 677px;
+  background: black;
+  margin: 155px 0 0 482px;
+  clip-path: polygon(
+    0 0,
+    calc(100% - 282px) 0, 
+    calc(100% - 202px) 73px, 
+    100% 73px, 
+    100% 100%, 0 100%
+    );
+    border-bottom-right-radius: 25px;
+}
+
+.pokeCapBody {
+  display: flex;
+  width: 389px;
+  height: 675px;
+  background: red;
+  position: absolute;
+  clip-path: polygon(
+    0 0,
+    calc(100% - 281px) 0, 
+    calc(100% - 201px) 73px, 
+    100% 73px, 
+    100% 100%, 0 100%
+    );
+  margin-top: 1px;
+  align-items: center;
+  border-bottom-right-radius: 25px;
+}
+
+.pokeCapBodyIn {
+  display: flex;
+  position: absolute;
+  width: 340px;
+  height: 620px;
+  background: darkred;
+  margin-left: 25px;
+  clip-path: polygon(
+    0 0,
+    calc(100% - 281px) 0, 
+    calc(100% - 196px) 75px, 
+    100% 75px, 
+    100% 100%, 0 100%
+    );
+    border-bottom-right-radius: 10px;
+}
+
+.pokeCapBorderScreen {
+  display: flex;
+  width: 300px;
+  height: 150px;
+  background: linear-gradient(
+    45deg,
+    rgb(206, 203, 203), 
+    rgb(109, 109, 109), 
+    rgb(255, 255, 255)
+  );
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.pokeCapScreen {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background: black;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.buttonsPanel {
+  display: flex;
+  flex-direction: column;
+  width: 263px;
+  height: 90px;
+  background: black;
+  z-index: 0;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.pokeButtonPanelTop {
+  display: flex;
+  width: 260px;
+  height: 40px;
+  margin-top: 2px;
+}
+
+.pokeButtonPanelBottom {
+  display: flex;
+  width: 260px;
+  height: 40xp;
+  margin-top: 2px;
+}
+
+.pokeButtonPanel {
+  display: flex;
+  width: 50px;
+  height: 40px;
+  background: linear-gradient(26deg,aqua, skyblue);
+  border: 2px solid black;
+  border-radius: 4px;
+}

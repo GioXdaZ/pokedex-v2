@@ -1,3 +1,9 @@
+.pokedex {
+  display: flex;
+  width: 900px;
+  height: 750px;
+}
+
 .pokeBody {
   display: flex;
   position: absolute;
@@ -27,4 +33,5 @@
     0 100%
     );
   margin: 100px 25px 25px 25px;
+  border-bottom-left-radius: 10px;
 }
