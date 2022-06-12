@@ -26,3 +26,14 @@
   margin: auto;
   border-radius: 5px;
 }
+
+.type {
+  display: flex;
+  width: 120px;
+  height: 10px;
+  font-family: monospace;
+  margin-top: 6px;
+  margin-left: 40px;
+  align-items: center;
+  color: white;
+}

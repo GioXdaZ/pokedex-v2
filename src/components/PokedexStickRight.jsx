@@ -5,5 +5,5 @@ export const PokedexStickRight = () => {
     <div className="stickRightPanel">
       <div className="stickRight"></div>
     </div>
-  )
-}
+  );
+};

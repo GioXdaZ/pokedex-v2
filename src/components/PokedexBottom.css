@@ -72,16 +72,16 @@
 
 .pokePanelInfo {
   display: flex;
-  width: 120px;
+  width: 150px;
   height: 80px;
   position: absolute;
   margin-top: 100px;
-  margin-left: 40px;
+  margin-left: 25px;
 }
 
 .borderPanelInfo {
   display: flex;
-  width: 120px;
+  width: 150px;
   height: 80px;
   background: linear-gradient(35deg, silver, gray);
   position: relative;
@@ -91,11 +91,46 @@
 
 .screenPanel {
   display: flex;
-  width: 110px;
+  width: 130px;
   height: 70px;
   background: black;
   margin: auto auto;
   border-radius: 4px;
+}
+
+.panelPokemonInfo {
+  display: flex;
+  width: 105px;
+  height: 65px;
+  flex-direction: column;
+  color: white;
+  font-family: monospace;
+  margin-left: 3px;
+}
+
+.namePokemon {
+  display: flex;
+  margin-top: -15px;
+}
+
+.genderPokemon {
+  display: flex;
+  margin-left: 65px;
+}
+
+.speciesPokemon {
+  display: flex;
+  margin-top: -35px;
+}
+
+.heightPokemon {
+  display: flex;
+  margin-top: -35px;
+}
+
+.weightPokemon {
+  display: flex;
+  margin-top: -35px;
 }
 
 .arrow {
@@ -198,3 +233,4 @@
   border: 1px solid black;
   margin: auto auto;
 }
+

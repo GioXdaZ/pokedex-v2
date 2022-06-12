@@ -11,7 +11,12 @@ export const PokedexScreen = () => {
           <div className="lightRedTop"></div>
         </div>
       </div>
-      <div className="pokeScreen"></div>
+      <div className="pokeScreen">
+        <div className="imagePokemon"></div>
+        <div className="numberPokemon">
+          <h1>#</h1>
+        </div>
+      </div>
       <div className="borderTinyScreen">
         <div className="pokeLightError"></div>
       </div>

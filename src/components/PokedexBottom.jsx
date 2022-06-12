@@ -18,7 +18,23 @@ export const PokedexBottom = () => {
       </div>
       <div className="pokePanelInfo">
         <div className="borderPanelInfo">
-          <div className="screenPanel"></div>
+          <div className="screenPanel">
+            <div className="panelPokemonInfo">
+              <div className="namePokemon">
+                <h2>NAME</h2>
+                <div className="genderPokemon"><h2>8</h2></div>
+              </div>
+              <div className="speciesPokemon">
+                <h6>Species:</h6>
+              </div>
+              <div className="heightPokemon">
+                <h6>Height:</h6>
+              </div>
+              <div className="weightPokemon">
+                <h6>Weight:</h6>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className="arrow">
@@ -35,12 +51,12 @@ export const PokedexBottom = () => {
         </div>
         <div className="lightBottom">
           <div className="yellow"></div>
-          </div>
-        <div className="lightBottom">
-        <div className="yellow"></div>
         </div>
         <div className="lightBottom">
-        <div className="yellow"></div>
+          <div className="yellow"></div>
+        </div>
+        <div className="lightBottom">
+          <div className="yellow"></div>
         </div>
       </div>
     </div>

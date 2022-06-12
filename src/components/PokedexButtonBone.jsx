@@ -6,5 +6,5 @@ export const PokedexButtonBone = () => {
       <div className="pokeButtonPanelBone"></div>
       <div className="pokeButtonPanelBone"></div>
     </div>
-  )
-}
+  );
+};
