@@ -11,7 +11,11 @@ export const PokedexCap = () => {
       <div className="pokeCapBody">
         <div className="pokeCapBodyIn">
           <div className="pokeCapBorderScreen">
-            <div className="pokeCapScreen"></div>
+            <div className="pokeCapScreen">
+              <div className="infoPokemonScreen">
+                <h2>INFO HERE </h2>
+              </div>
+            </div>
           </div>
         </div>
         <div className="buttonsPanel">

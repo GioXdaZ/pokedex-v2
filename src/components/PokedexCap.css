@@ -67,6 +67,16 @@
   border-radius: 5px;
 }
 
+.infoPokemonScreen {
+  display: flex;
+  width: 260px;
+  height: 110px;
+  color: white;
+  font-family: monospace;
+  text-align: justify;
+  margin: 2px 3px;
+}
+
 .buttonsPanel {
   display: flex;
   flex-direction: column;
