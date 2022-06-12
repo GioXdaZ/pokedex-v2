@@ -1,0 +1,39 @@
+.lightsCapBottonContainer {
+  display: flex;
+  width: 80px;
+  height: 20px;
+  margin-top: 175px;
+  margin-left: 182.5px;
+  gap: 6px;
+}
+
+.lightCapBottom {
+  display: flex;
+  background: linear-gradient(30deg, silver, gray);
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+.greenLightCap {
+  display: flex;
+  background: radial-gradient(rgb(70, 247, 34), rgb(49, 70, 0));
+  width: 12px;
+  height: 12px;
+  position: relative;
+  border-radius: 100%;
+  border: 1px solid black;
+  margin: auto auto;
+}
+
+.redLightCap {
+  display: flex;
+  background: radial-gradient(rgb(247, 34, 34), rgb(70, 0, 0));
+  width: 12px;
+  height: 12px;
+  position: relative;
+  border-radius: 100%;
+  border: 1px solid black;
+  margin: auto auto;
+}

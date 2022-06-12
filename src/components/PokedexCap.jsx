@@ -1,5 +1,9 @@
+import { PokedexButtonBone } from "./PokedexButtonBone";
 import "./PokedexCap.css";
+import { PokedexLightsCapTiny } from "./PokedexLightsCapTiny";
 import { PokedexLightsLarge } from "./PokedexLightsLarge";
+import { PokedexStickRight } from "./PokedexStickRight";
+import { PokedexTypesPanel } from "./PokedexTypesPanel";
 
 export const PokedexCap = () => {
   return (
@@ -28,6 +32,18 @@ export const PokedexCap = () => {
         </div>
         <div className="positionLightLargeCap">
           <PokedexLightsLarge />
+        </div>
+        <div className="positionLightTinyCap">
+          <PokedexLightsCapTiny />
+        </div>
+        <div>
+          <PokedexButtonBone />
+        </div>
+        <div>
+          <PokedexStickRight />
+        </div>
+        <div>
+          <PokedexTypesPanel />
         </div>
       </div>
     </div>

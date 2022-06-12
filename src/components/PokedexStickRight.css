@@ -1,0 +1,19 @@
+.stickRightPanel {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  margin-top: 285px;
+  margin-left: 100px;
+}
+
+.stickRight {
+  display: flex;
+  width: 65px;
+  height: 65px;
+  background: linear-gradient(30deg, rgb(255, 230, 0), rgb(105, 62, 6));
+  border-radius: 100%;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: -10px;
+  box-shadow: -2px 10px 20px 1px black;
+}

@@ -4,14 +4,12 @@
   height: 677px;
   background: black;
   margin: 155px 0 0 482px;
-  clip-path: polygon(
-    0 0,
-    calc(100% - 282px) 0, 
-    calc(100% - 202px) 73px, 
-    100% 73px, 
-    100% 100%, 0 100%
-    );
-    border-bottom-right-radius: 25px;
+  clip-path: polygon(0 0,
+      calc(100% - 282px) 0,
+      calc(100% - 202px) 73px,
+      100% 73px,
+      100% 100%, 0 100%);
+  border-bottom-right-radius: 25px;
 }
 
 .pokeCapBody {
@@ -20,13 +18,11 @@
   height: 675px;
   background: red;
   position: absolute;
-  clip-path: polygon(
-    0 0,
-    calc(100% - 281px) 0, 
-    calc(100% - 201px) 73px, 
-    100% 73px, 
-    100% 100%, 0 100%
-    );
+  clip-path: polygon(0 0,
+      calc(100% - 281px) 0,
+      calc(100% - 201px) 73px,
+      100% 73px,
+      100% 100%, 0 100%);
   margin-top: 1px;
   align-items: center;
   border-bottom-right-radius: 25px;
@@ -39,27 +35,23 @@
   height: 620px;
   background: darkred;
   margin-left: 25px;
-  clip-path: polygon(
-    0 0,
-    calc(100% - 281px) 0, 
-    calc(100% - 196px) 75px, 
-    100% 75px, 
-    100% 100%, 0 100%
-    );
-    border-bottom-right-radius: 10px;
+  clip-path: polygon(0 0,
+      calc(100% - 281px) 0,
+      calc(100% - 196px) 75px,
+      100% 75px,
+      100% 100%, 0 100%);
+  border-bottom-right-radius: 10px;
 }
 
 .pokeCapBorderScreen {
   display: flex;
   width: 300px;
   height: 150px;
-  background: linear-gradient(
-    45deg,
-    rgb(206, 203, 203), 
-    rgb(109, 109, 109), 
-    rgb(255, 255, 255)
-  );
-  margin-top: 100px;
+  background: linear-gradient(45deg,
+      rgb(206, 203, 203),
+      rgb(109, 109, 109),
+      rgb(255, 255, 255));
+  margin-top: 110px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
@@ -81,10 +73,9 @@
   width: 263px;
   height: 90px;
   background: black;
-  z-index: 0;
-  margin-top: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 65px;
   border-radius: 5px;
 }
 
@@ -106,7 +97,7 @@
   display: flex;
   width: 50px;
   height: 40px;
-  background: linear-gradient(26deg,aqua, skyblue);
+  background: linear-gradient(26deg, aqua, skyblue);
   border: 2px solid black;
   border-radius: 4px;
 }
@@ -114,6 +105,13 @@
 .positionLightLargeCap {
   display: flex;
   position: absolute;
-  margin-top: 120px;
-  margin-left: 195px;
+  margin-top: 130px;
+  margin-left: 200px;
+}
+
+.positionLightTinyCap {
+  display: flex;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: -105px;
 }
